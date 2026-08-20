@@ -110,6 +110,7 @@ const styles = `
     font-size: 1.2rem;
     line-height: 1.8;
     margin-bottom: 1.5rem;
+    text-align: left;
   }
 
   .letter-text:last-of-type {
