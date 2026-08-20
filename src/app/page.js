@@ -542,7 +542,7 @@ export default function BirthdayPage() {
       {/* Message Reveal Card */}
       <div className={`message-card ${candlesBlownOut ? "visible" : ""}`}>
         <p className="message-text">{MESSAGE}</p>
-        <p className="signature">— तुमचीच 🤍</p>
+        <p className="signature">— तुमचीच कावेरी 🤍</p>
         <button 
           className="continue-button"
           onClick={() => router.push("/birthday")}
