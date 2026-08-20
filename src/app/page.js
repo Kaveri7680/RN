@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 // ==========================================
 const FIANCEE_NAME = "My Love";
 const YOUR_NAME = "Your Future Husband";
-const MESSAGE = `जगातल्या सर्वात amazing व्यक्तीला Happy Birthday! तुझ्यासोबतचा प्रत्येक दिवस एखाद्या सुंदर dream सारखा आहे. तुला माझ्या life मध्ये पाहुन मी स्वतःला खूप lucky समजते. आपण share केलेल्या सगळ्या सुंदर क्षणांसाठी आणि भविष्यात येणाऱ्या अशाच अनेक गोड क्षणांसाठी... I love you more than words can say.`;
+const MESSAGE = `जगातल्या सर्वात amazing व्यक्तीला Happy Birthday! तुमच्यासोबतचा प्रत्येक दिवस एखाद्या सुंदर dream सारखा आहे. तुम्हाला माझ्या life मध्ये पाहुन मी स्वतःला खूप lucky समजते. आपण share केलेल्या सगळ्या सुंदर क्षणांसाठी आणि भविष्यात येणाऱ्या अशाच अनेक गोड क्षणांसाठी... I love you more than words can say.`;
 
 // ==========================================
 // CSS STYLES
@@ -542,7 +542,7 @@ export default function BirthdayPage() {
       {/* Message Reveal Card */}
       <div className={`message-card ${candlesBlownOut ? "visible" : ""}`}>
         <p className="message-text">{MESSAGE}</p>
-        <p className="signature">— तुझीच 🤍</p>
+        <p className="signature">— तुमचीच 🤍</p>
         <button 
           className="continue-button"
           onClick={() => router.push("/birthday")}

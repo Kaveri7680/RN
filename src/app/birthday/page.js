@@ -4,9 +4,9 @@ import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 
 const FOUR_CARDS = [
-  "तू फक्त सोबत असण्याने माझा प्रत्येक दिवस brighter होतो. तुझी energy हीच माझी favorite magic आहे.",
-  "तुझी smile ही या जगातली माझी सर्वात favorite गोष्ट आहे, आणि ती तुझ्या चेहऱ्यावर अशीच ठेवण्यासाठी मी आयुष्यभर प्रयत्न करेन.",
-  "तुझं प्रेम, तुझा patience, आणि तुझ्या या incredible स्वभावासाठी मी खरोखरच खूप grateful आहे.",
+  "तुम्ही फक्त सोबत असण्याने माझा प्रत्येक दिवस brighter होतो. तुमची energy हीच माझी favorite magic आहे.",
+  "तुमची smile ही या जगातली माझी सर्वात favorite गोष्ट आहे, आणि ती तुमच्या चेहऱ्यावर अशीच ठेवण्यासाठी मी आयुष्यभर प्रयत्न करेन.",
+  "तुमचं प्रेम, तुमचा patience, आणि तुमच्या या incredible स्वभावासाठी मी खरोखरच खूप grateful आहे.",
   "आपल्या life च्या या wild adventures साठी, खूप साऱ्या हसण्यासाठी, आणि एकत्र beautiful memories बनवण्यासाठी... Cheers!"
 ];
 
@@ -303,7 +303,7 @@ export default function BirthdayPage() {
           className="continue-button"
           onClick={() => router.push("/letter")}
         >
-          💖 माझं Letter वाच
+          💖 माझं Letter वाचा
         </button>
       </div>
     </div>
